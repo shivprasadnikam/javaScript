@@ -49,9 +49,50 @@ b = c;
 
 /***********Do not change the code below 👇*******/
 
+//Challengee for parameter fun
+function getMilk(costOfBottle)
+{
+    console.log("You can buy "+Math.floor(costOfBottle/1.5)+" Bottles");
+}
+getMilk(13);
+
+
+
 console.log("a is " + a);
 console.log("b is " + b);
 
+//Challenge Days Left for current age till 90
+
+function lifeInWeeks(age) {
+    
+/************Don't change the code above************/    
+    
+    //Write your code here.
+  var yearsLeft=90-age;
+  var days=yearsLeft*365;
+  var weeks=yearsLeft*52;
+  var months=yearsLeft*12;
+  console.log("You have "+days+" days,"+weeks+" weeks and"+months+"months");
+  
+    
+    
+    
+    
+    
+/*************Don't change the code below**********/
+}
+lifeInWeeks(12);
+
+//Challenge BMI calculator
+
+function bmiCalculator(weight,height)
+{
+     var bmi=(weight)/(height*height);
+     return Math.floor(bmi);
+    
+}
+var output=bmiCalculator(65,1.8);
+console.log(output);
 
 
 
