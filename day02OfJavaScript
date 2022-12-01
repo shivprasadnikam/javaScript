@@ -1,3 +1,147 @@
                                                   //Intermidiate Javascript//
  
  
+// Playing with Maths.random() fun
+var a=prompt();
+var b=prompt();
+
+var result=Math.random();
+result=result*100+1;
+
+console.log(Math.floor(result));
+
+//Conditional statements
+In javascript we use triple "===" to compare two things here with "==" its only check for value but with "===" its check both value and data type tooo
+In javascript we use triple "!==" to compare two things 
+Other operators are same as of other programming languages
+
+//bmi calculator using if else
+function bmiCalculator (weight, height) {
+    if(bmi <18.5)
+    {
+        alert("Your BMI is "+bmi+",so you are underweight");
+    }
+    else if (bmi>18.5 && bmi<24.9)
+    {
+        alert("Your BMI is "+bmi+", so you have a normal weight");
+    }
+    else
+    {
+        alert("Your BMI is "+bmi+", so you are overweight");
+    }
+}
+
+//leap year program
+var year=prompt();
+function isLeap(year) {
+    
+/**************Don't change the code above****************/    
+    
+    //Write your code here.    
+    if(year%4===0 && year%100!==0 && year%400===0)
+    {
+        console.log("Leap year");
+    }
+    else
+    {
+        console.log("Not leap year");
+    }
+
+    
+
+/**************Don't change the code below****************/    
+
+}
+isLeap(year)
+
+//Arrays in javascript
+
+var guestList=["shiv","akshay","khandagale", "ajinkya"];
+var guestName=prompt("Enter Your name");
+if(guestList.includes(guestName))
+{
+    console.log("Welcome "+guestName);
+    
+}
+else
+{
+ console.log("I think you have not register for this event");   
+}
+
+var names=["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+var len=names.length;
+ var rand=(Math.floor(Math.random()*len));
+ var random=names[rand];
+ //console.log(rand);
+ //console.log(names[rand]);
+function whosPaying(names) {
+    
+/******Don't change the code above*******/
+    
+    //Write your code here.
+   
+    return random+" is going to buy lunch today !";
+    
+    
+    
+
+
+/******Don't change the code below*******/    
+}
+whosPaying(names);
+
+
+//loops in javascript
+works similar to c++ loops 
+
+//fibonacce series
+var n=prompt("Enter value of n");
+function fib(n)
+{
+   
+function fibonacciGenerator (n) {
+//Do NOT change any of the code above 👆
+    
+    //Write your code here:
+     var nextTerm;
+    var t1=0;
+    var t2=1;
+    for(var i=0; i<=n; i++)
+    {
+        if(n===0)
+        {
+            return 0;
+        }
+        if(n==1)
+        {
+            return 1;
+        }
+        else
+        {
+            nextTerm=t1+t2;
+            t1=t2;
+            t2=nextTerm;
+            return nextTerm;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    //Return an array of fibonacci numbers starting from 0.
+    
+//Do NOT change any of the code below 👇
+}
+
+
+}
+fib(n);
+
+
+
+
+                                                      //DOM   Manupilication //
+                                                      
+ 
