@@ -143,5 +143,79 @@ fib(n);
 
 
                                                       //  Intro to DOM Document Object Model //
+                                                   
+Same as of CSS JS also has three types 
+1)inline JS
+2)internal JS
+3) external JS
+
+Note: Always put script at bottom but before closing </body> tag as it helps u to load ur html and css first and heavy js gets certain amount of time to load
+
+                                                    //Advanced Javascript //
+                                                 
+EventListener :
+to select any thing from  HTML use document.querySelector(mention id / class);
+
+TO add eventlistener u need select that element first
+
+document.querySelector("button").addEventListener("click",handleClick);
+
+function handleClick(){
+    alert("Button pressed !");
+}
+
+
+Exercise to add event listner to multiple buttons
+
+noOfDrums=document.querySelectorAll(".drum").length;
+for(var i=0; i<noOfDrums; i++)
+{
+    document.querySelectorAll(".drum")[i].addEventListener("click",handleClick);
+
+    function handleClick(){
+    alert("Button pressed !");
+}
+}
+
+
+
+Higher Order function and passing function as argument
+
+Higher Order means functions takes another function as a argument;
+
+
+//make calculator using higher order function
+
+function add(num1,num2)
+{
+    return num1+num2;
+}
+
+//funtion for subtraction
+
+function sub(num1,num2)
+{
+    return num1-num2;
+}   
+
+//fun for multiplication
+function multi(num1,num2)
+{
+    return num1*num2;
+}   
+
+//funtion for division
+function div(num1,num2)
+{
+    return num1/num2;
+}   
+function calculator(num1,num2,operation)
+{
+    return operation(num1,num2);
+}
+calculator(5,6,multi);
+
+
+
                                                       
  
