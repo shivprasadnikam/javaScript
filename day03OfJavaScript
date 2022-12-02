@@ -1,1 +1,14 @@
+                                                            // JSON Onject (Javascript Object Notation) //
+                                                            
 
+Callback funtion means  a function who waits for certain event trigger then that function will start performing 
+ document.querySelectorAll(".drum")[i].addEventListener("click",handleClick(){
+
+   
+    
+    var buttonInnerHTML= this.innerHTML;
+    makeSound(buttonInnerHTML);
+    
+});
+
+in this syntax handleClick() is call back funtion which get excuted when someone press particular drum/ anything on which event listner is putted
