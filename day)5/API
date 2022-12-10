@@ -1,0 +1,13 @@
+API stands for Application programming interface
+
+
+What is API ?
+An application programming interface (API) is a way for two or more computer programs to communicate with each other
+
+API has four parts
+1)Endpoint: Sort of entry point/starting point
+2)Path: location/path
+3)Parmaters: parameters means kind of customization we required to do / 
+4)Authenticatin : how much data acess we have
+
+
