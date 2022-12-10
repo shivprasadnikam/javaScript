@@ -10,4 +10,12 @@ API has four parts
 3)Parmaters: parameters means kind of customization we required to do / 
 4)Authenticatin : how much data acess we have
 
+Example : http://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&lang={lang}
+Here,
+Enpoint is :http://api.openweathermap.org
+Path is : http://api.openweathermap.org/data/3.0/
+Parameter is : lat={lat}&lon={lon}&lang={lang}
+
+JSON: Javascript Object Notion is one of the format we get while calling api
+
 
